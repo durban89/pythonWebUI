@@ -147,9 +147,15 @@ ul.nav > li.header > a.header
     text-shadow: 0 1px 0 #34495E;
 }
 
-input.nav-search-text{
+input.nav-search-text,
+input.subnav-search-text{
     height:41px;
 }
+div.subnav-search-select,
+div.subnav-search-select div.span2{
+    width:110px;
+}
+
 form.nav-search-form
 {
     text-align: right;
@@ -161,8 +167,16 @@ div.search-select div.span2
 {
     width:80px;
 }
-
-
 div.tab-content-content{
     min-height:400px;
+}
+
+div.navbar-contrlpanel
+{
+    border:1px solid black;
+    min-height:51px;
+    padding:5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #34495e
 }

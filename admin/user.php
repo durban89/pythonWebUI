@@ -10,7 +10,7 @@
     </head>
     <body>
         <?php require "nav.php";?>
-        <?php require "container.php";?>
+        <?php require "container_user.php";?>
         <?php require "footer.php";?>
     </body>
     <?php require "loader_script.php";?>

@@ -74,6 +74,14 @@
                 </div>
             </section>
             <?php endfor;?>
+            <ul class="pager">
+                <li class="previous">
+                    <a href="#">&larr; 较旧</a>
+                </li>
+                <li class="next">
+                    <a href="#">较新 &rarr;</a>
+                </li>
+            </ul>
         </div>
     </div>
 </div>

@@ -10,6 +10,10 @@ $(function(){
 	$('input.nav-search-text').blur(function(){
 		var width = $(this).css('width');
 		width = parseInt(width) / 2;
+        if(width < 150)
+        {
+            width = 200;
+        }
 		$(this).animate({'width':width + 'px',opacity:"1"},500);
 	});
 });

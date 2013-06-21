@@ -14,11 +14,6 @@
                         博文管理
                         </a>
                     </li>
-                    <li class="<?php echo preg_match('#category#i',basename($_SERVER['PHP_SELF'])) ? 'active' : ''; ?>">
-                        <a class="nav-item" href="category.php">
-                        分类管理
-                        </a>
-                    </li>
                     <li class="<?php echo preg_match('#file#i',basename($_SERVER['PHP_SELF'])) ? 'active' : ''; ?>">
                         <a class="nav-item" href="file.php">
                         文件管理
@@ -34,6 +29,11 @@
                         用户管理
                         </a>
                     </li>
+                    <li class="<?php echo preg_match('#category#i',basename($_SERVER['PHP_SELF'])) ? 'active' : ''; ?>">
+                        <a class="nav-item" href="category.php">
+                        分类管理
+                        </a>
+                    </li>
                     <li class="">
                         <a class="nav-item" href="user.php">
                         退出（davidzhang）
@@ -41,7 +41,6 @@
                     </li>
                 </ul>
             </div><!--/.nav-collapse -->
-
         </div>
     </div>
 </div>
