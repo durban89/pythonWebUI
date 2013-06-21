@@ -1,3 +1,4 @@
+<?php require "../Lib/help_string.php";?>
 <div class="container-fluid">
     <div class='navbar navbar-contrlpanel' style=''>
         <form class="navbar-form pull-left" style='width: 100%;'>
@@ -34,7 +35,7 @@
                         <tr>
                             <td><span class="badge"><?php echo $i;?></span></td>
                             <td>黄金甲</td>
-                            <td>内容个数200字内容个 数200字内容个数200字 内容个数200字内容个数200字内容个数200字内容 个数200字内容</td>
+                            <td><?php echo Helper_String::cut_str('LIB内容个数200字内容个 数200字内容个数200字 内容个数200字内容个数200字内容个数200字内容 个数200字内容',30);?></td>
                             <td>10</td>
                             <td>2013-01-09 12-10-22</td>
                             <td>2013-01-19 12-10-22</td>
