@@ -1,0 +1,168 @@
+.navbar{
+    margin-bottom: 0px;
+}
+.navbar .nav > li:first-child > a.nav-item {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0  ;
+}
+.navbar-inner{
+    border-radius: 0;
+}
+
+.jumbotron {
+  position: relative;
+  padding: 40px 0;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+  background: #020031; /* Old browsers */
+  background: -moz-linear-gradient(45deg,  #1abc9c 0%, #1abc9c 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#1abc9c), color-stop(100%,#1abc9c)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(45deg,  #1abc9c 0%,#1abc9c 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(45deg, #1abc9c 0%,#1abc9c 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(45deg,  #1abc9c 0%,#1abc9c 100%); /* IE10+ */
+  background: linear-gradient(45deg, #1abc9c 0%,#1abc9c 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1abc9c', endColorstr='#1abc9c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+     -moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+          box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+}
+.jumbotron h1 {
+  font-size: 80px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+.jumbotron p {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.25;
+  margin-bottom: 30px;
+}
+
+/* Link styles (used on .masthead-links as well) */
+.jumbotron a {
+  color: #fff;
+  color: rgba(255,255,255,.5);
+  -webkit-transition: all .2s ease-in-out;
+     -moz-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
+.jumbotron a:hover {
+  color: #fff;
+  text-shadow: 0 0 10px rgba(255,255,255,.25);
+}
+
+.subhead {
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.tagsshow {
+    background: white;
+    border: 2px solid #1abc9c;
+    border-radius: 6px;
+    min-height: 25px;
+    margin-bottom: 18px;
+    padding: 6px 1px 1px 6px;
+    overflow-y: auto;
+    text-align: left;
+    margin: 10px 0px;
+}
+
+.tagsshow .tag {
+  border-radius: 4px;
+  background-color: #1abc9c;
+  color: #ffffff;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  overflow: hidden;
+  line-height: 15px;
+  padding: 6px 13px 8px 19px;
+  position: relative;
+  vertical-align: middle;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  -webkit-transition: 0.14s linear;
+  -moz-transition: 0.14s linear;
+  -o-transition: 0.14s linear;
+  transition: 0.14s linear;
+  -webkit-backface-visibility: hidden;
+}
+.tagsshow .tag:hover {
+  background-color: #16a085;
+  color: #ffffff;
+}
+.tagsshow .tag:hover .tagsinput-remove-link {
+  color: #ffffff;
+  opacity: 1;
+  display: block\9;
+}
+
+small.title-detail{
+    color: #bfc1c3;
+    font-size: inherit;
+    font-weight: 400;
+}
+
+section.item{
+    border-top: 2px solid #1abc9c;
+    border-bottom: 2px solid #1abc9c;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom:40px;
+}
+.row-list-area
+{
+    margin-top: 10px;
+}
+.bottom-handle{
+    text-align: right;
+}
+div.lead
+{
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+ul.nav > li.header > a.header
+{
+    background-color: #1ABC9C;
+    text-align:left;
+} 
+
+.breadcrumb {
+    background-color: #34495E;
+    border-radius: 4px 4px 4px 4px;
+    list-style: none outside none;
+    margin: 0 0 20px;
+    padding: 8px 15px;
+}
+
+.breadcrumb > li {
+    text-shadow: 0 1px 0 #34495E;
+}
+
+input.nav-search-text{
+    height:41px;
+}
+form.nav-search-form
+{
+    text-align: right;
+    min-width: 25%;
+    margin-right:10px;
+}
+div.search-select,
+div.search-select div.span2
+{
+    width:80px;
+}
+
+
+div.tab-content-content{
+    min-height:400px;
+}
