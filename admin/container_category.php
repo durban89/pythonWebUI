@@ -11,21 +11,11 @@
             </div>
             <input type="text" class="span2 subnav-search-text">
             <button type="submit" class="btn btn-primary">搜索</button>
-            <a data-toggle="modal" href="#myCategory" class="btn btn-primary">添加分类</a>
+            <a id="createModal" href="addcategory.php" data-target="#modal" data-toggle="modal" class="btn btn-primary">添加分类</a>
         </form>
         <!-- Modal -->
-        <div id="myCategory" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <h3 id="myModalLabel">添加分类</h3>
-            </div>
-            <div class="modal-body">
-                <p>One fine body…</p>
-            </div>
-            <div class="modal-footer">
-                <button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button>
-                <button id='saveBlog' class="btn btn-primary">保存</button>
-            </div>
+        <div id="modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            
         </div>
     </div>
     <div class="row-fluid row-list-area">

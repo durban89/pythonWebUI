@@ -12,7 +12,7 @@
             </div>
             <input type="text" class="span2 subnav-search-text">
             <button type="submit" class="btn btn-primary">搜索</button>
-            <a id="createModal" href="http://localhost/pythonwebUI/admin/addblog.php" data-target="#modal" data-toggle="modal" class="btn btn-primary">新建文章</a>
+            <a id="createModal" href="addblog.php" data-target="#modal" data-toggle="modal" class="btn btn-primary">新建文章</a>
         </form>
         <!-- Modal -->
         <div class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" id='modal'></div>
