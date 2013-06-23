@@ -12,8 +12,10 @@
             </div>
             <input type="text" class="span2 subnav-search-text">
             <button type="submit" class="btn btn-primary">搜索</button>
-            <a target="_blank" href="#" class="btn btn-primary">新建文章</a>
+            <a id="createModal" href="http://localhost/pythonwebUI/admin/addblog.php" data-target="#modal" data-toggle="modal" class="btn btn-primary">新建文章</a>
         </form>
+        <!-- Modal -->
+        <div class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" id='modal'></div>
     </div>
     <div class="row-fluid row-list-area">
         <div class="span12">
@@ -40,9 +42,9 @@
                             <td>2013-01-09 12-10-22</td>
                             <td>2013-01-19 12-10-22</td>
                             <td>
-                                <a class="btn">编辑</a>
-                                <a class="btn">删除</a>
-                                <a class="btn">锁定</a>
+                                <a class="btn btn-primary">编辑</a>
+                                <a class="btn btn-primary">删除</a>
+                                <a class="btn btn-primary">锁定</a>
                             </td>
                         </tr>
                         <?php endfor;?>

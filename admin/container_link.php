@@ -11,8 +11,21 @@
             </div>
             <input type="text" class="span2 subnav-search-text">
             <button type="submit" class="btn btn-primary">搜索</button>
-            <a target="_blank" href="#" class="btn btn-primary">添加链接</a>
+            <a data-toggle="modal" href="#myLink" class="btn btn-primary">添加链接</a>
         </form>
+        <div id="myLink" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3 id="myModalLabel">添加链接</h3>
+            </div>
+            <div class="modal-body">
+                <p>One fine body…</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button>
+                <button id='saveBlog' class="btn btn-primary">保存</button>
+            </div>
+        </div>
     </div>
     <div class="row-fluid row-list-area">
         <div class="span12">
@@ -37,9 +50,9 @@
                             <td>友情链接</td>
                             <td>2013-10-11 10:12:20</td>
                             <td>
-                                <a class="btn">编辑</a>
-                                <a class="btn">删除</a>
-                                <a class="btn">锁定</a>
+                                <a class="btn btn-primary">编辑</a>
+                                <a class="btn btn-primary">删除</a>
+                                <a class="btn btn-primary">锁定</a>
                             </td>
                         </tr>
                         <?php endfor;?>

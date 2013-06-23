@@ -30,3 +30,23 @@ $(function(){
           activeOverlay: false  // Set CSS color to display scrollUp active point, e.g '#00FFFF'
     });
 });
+
+$(function(){
+	//文章保存
+	$('#saveBlog').click(function(){
+		$('#myBlog').modal('hide');
+	});
+	//文件保存
+	$('#saveFile').click(function(){
+		$('#myFile').modal('hide');
+	});
+	$('body').on('hidden', '.modal', function () {
+		$(this).removeData('modal');
+	});
+
+	$("#createModal").click(function(){
+	    var target = $(this).attr('data-target');
+	    var url = $(this).attr('href');
+	    $(target).load(url);
+	});
+});

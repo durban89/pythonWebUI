@@ -12,8 +12,22 @@
             </div>
             <input type="text" class="span2 subnav-search-text">
             <button type="submit" class="btn btn-primary">搜索</button>
-            <a target="_blank" href="#" class="btn btn-primary">新增文件</a>
+            <a href="#myFile" data-toggle="modal" class="btn btn-primary">新增文件</a>
         </form>
+        <!-- Modal -->
+        <div id="myFile" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3 id="myModalLabel">新增文件</h3>
+            </div>
+            <div class="modal-body">
+                <p>One fine body…</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button>
+                <button id='saveFile' class="btn btn-primary">保存</button>
+            </div>
+        </div>
     </div>
     <div class="row-fluid row-list-area">
         <div class="span12">
@@ -40,9 +54,9 @@
                             <td>2013-01-09 12-10-22</td>
                             <td>2013-01-19 12-10-22</td>
                             <td>
-                                <a class="btn">编辑</a>
-                                <a class="btn">删除</a>
-                                <a class="btn">锁定</a>
+                                <a class="btn btn-primary">编辑</a>
+                                <a class="btn btn-primary">删除</a>
+                                <a class="btn btn-primary">锁定</a>
                             </td>
                         </tr>
                         <?php endfor;?>
